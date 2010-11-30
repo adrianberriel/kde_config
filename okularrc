@@ -1,0 +1,30 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAALoAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+
+[Recent Files]
+File1[$e]=$HOME/Facultad/actuales/WM/Material/web-server-logs.pdf
+File10[$e]=$HOME/Facultad/actuales/WM/WMOblig_oct2010.pdf
+File2[$e]=$HOME/Facultad/organización/rpPrevias_Plan_2003122012.pdf
+File3[$e]=$HOME/Facultad/organización/8.pdf
+File4[$e]=$HOME/Facultad/organización/Articulo_tecnico.pdf
+File5[$e]=$HOME/Documents/Laburo/cv_berriel.pdf
+File6[$e]=/datos/Facultad/actuales/TIS/Obligatorio/Fuentes consultadas/Estimacion 1.pdf
+File7[$e]=$HOME/Facultad/actuales/TIS/Obligatorio/Fuentes consultadas/Estimacion 1.pdf
+File8[$e]=$HOME/Facultad/actuales/TIS/Obligatorio/Fuentes consultadas/estimacion 2.pdf
+File9[$e]=$HOME/Desktop/ch08.pdf
+Name1[$e]=web-server-logs.pdf
+Name10[$e]=WMOblig_oct2010.pdf
+Name2[$e]=rpPrevias_Plan_2003122012.pdf
+Name3[$e]=8.pdf
+Name4[$e]=Articulo_tecnico.pdf
+Name5[$e]=cv_berriel.pdf
+Name6[$e]=Estimacion 1.pdf
+Name7[$e]=Estimacion 1.pdf
+Name8[$e]=estimacion 2.pdf
+Name9[$e]=ch08.pdf

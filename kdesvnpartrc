@@ -1,0 +1,43 @@
+[$Version]
+update_info=kdesvnpartrc-use-external.upd:0.14.0-1
+
+[add_items_dlg]
+Height 768=363
+Width 1366=654
+
+[checkout_export_dialog]
+Height 768=333
+Width 1366=407
+
+[db_overview_dlg]
+Height 768=335
+Width 1366=541
+
+[diff_display]
+Height 768=235
+Width 1366=271
+
+[general_items]
+commit_splitter_height=191,191
+
+[kdesvn-mainlayout]
+infosplit=\x00\x00\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01\x00\x00\x00\x01\x00\x01\x00\x00\x00\x06\x01\x00\x00\x00\x01
+split1=\x00\x00\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01\x0f\x00\x00\x00À\x01\x00\x00\x00\x06\x01\x00\x00\x00\x02
+
+[log_dialog_size]
+Height 768=475
+Width 1366=671
+laststate=false
+logsplitter=\x00\x00\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01P\x00\x00\x019\x01\x00\x00\x00\x06\x01\x00\x00\x00\x01
+right_logsplitter=\x00\x00\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00À\x00\x00\x00À\x01\x00\x00\x00\x06\x01\x00\x00\x00\x02
+
+[log_messages]
+log_0=AgreguÃ© un poco de informaciÃ³n. La marquÃ© con verde.
+log_1=Matriz de riesgos y me olvidaba de las imÃ¡genes de los procesos
+log_2=Diagramas actualizados
+log_3=Agregadas garantÃ­as de oferta en procesos, eliminado departamento comercial en organigrama
+log_4=Modificaciones a diagramas de procesos
+
+[logmsg_dlg_size]
+Height 768=511
+Width 1366=801

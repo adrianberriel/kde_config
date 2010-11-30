@@ -1,0 +1,17 @@
+[Event/FinishedWithError]
+Action=
+Execute=
+KTTS=
+Logfile=
+
+[Event/SuccessfullyFinished]
+Action=
+Execute=
+KTTS=
+Logfile=
+
+[Event/WaitingForMedium]
+Action=
+Execute=
+KTTS=
+Logfile=

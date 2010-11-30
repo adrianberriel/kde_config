@@ -1,0 +1,34 @@
+[Windeco]
+AnimationsDuration=150
+BlendColor=Radial Gradient
+ButtonSize=Small
+ButtonType=Sunken
+DrawTitleOutline=false
+FrameBorder=Tiny
+OverwriteColors=true
+SeparatorType=Draw Separator for Active Windows Only
+ShowStripes=false
+SizeGripMode=Show Extra Size Grip When Needed
+TitleAlignment=Center
+UseAnimations=true
+UseOxygenShadows=false
+
+[Windeco Exception 0]
+AnimationsDuration=150
+BlendColor=Solid Color
+ButtonSize=Normal
+ButtonType=Sunken
+DrawTitleOutline=false
+Enabled=true
+FrameBorder=Normal
+HideTitleBar=false
+Mask=32
+OverwriteColors=true
+Pattern=(Firefox)|(Thunderbird)|(Gimp)
+SeparatorType=Draw Separator for Active Windows Only
+ShowStripes=false
+SizeGripMode=Show Extra Size Grip When Needed
+TitleAlignment=Left
+Type=Window Class Name
+UseAnimations=true
+UseOxygenShadows=true

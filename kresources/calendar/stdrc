@@ -1,0 +1,26 @@
+[General]
+PassiveResourceKeys=62V4kDxFdg
+ResourceKeys=KBcN8f9jrw
+Standard=62V4kDxFdg
+
+[Resource_62V4kDxFdg]
+CalendarURL[$e]=file://$HOME/.kde4/share/apps/korganizer/std.ics
+Format=ical
+ResourceIdentifier=62V4kDxFdg
+ResourceIsActive=false
+ResourceIsReadOnly=false
+ResourceName=Default Calendar
+ResourceType=file
+
+[Resource_KBcN8f9jrw]
+ResourceIdentifier=KBcN8f9jrw
+ResourceIsActive=true
+ResourceIsReadOnly=true
+ResourceName=google calendar
+ResourceType=akonadi
+
+[Resource_KBcN8f9jrw][akonadi:?collection=14]
+Active=true
+
+[Resource_KBcN8f9jrw][akonadi:?collection=5]
+Active=true

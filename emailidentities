@@ -1,0 +1,13 @@
+[$Version]
+update_info=kmail.upd:3.3-move-identities-to-own-file,kmail.upd:3.3-aegypten-emailidentities-split-sign-encr-keys
+
+[General]
+Default Identity=1827346729
+
+[Identity #0]
+Dictionary=English (United States of America)
+Identity=Unnamed
+Image Location=
+Inline Signature=
+Signature Type=disabled
+uoid=1827346729

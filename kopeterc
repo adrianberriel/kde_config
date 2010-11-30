@@ -1,0 +1,111 @@
+[$Version]
+update_info=kopete-jabberpriorityaddition-kconf_update.upd:kopete0.9/r1,kopete-pluginloader.upd:kopete0.7/r1,kopete-jabberproxytype-kconf_update.upd:kopete0.9/r1,kopete-gaim_to_pidgin_style.upd:kopete0.70.85/r1,kopete-initialstatus.upd:kopete0.60.80/r1,kopete-update_yahoo_server.upd:kopete-update-yahoo-server/r1,kopete-pluginloader2.upd:kopete0.8/r1,kopete-account-kconf_update.upd:kopete0.7/r1,kopete-account-kconf_update.upd:kopete0.10/r1,kopete-nameTracking.upd:kopete0.9/r1,kopete-update_icq_server.upd:kopete-update-icq-server/r1
+
+[Account_JabberProtocol_berriel@gmail.com]
+AccountId=berriel@gmail.com
+AllowPlainTextPassword=true
+CustomServer=false
+ExcludeConnect=false
+HideSystemInfo=false
+Identity=r7ttG8aOgq
+MergeMessages=true
+OldEncrypted=false
+PasswordIsWrong=true
+Port=5222
+Priority=5
+Protocol=JabberProtocol
+ProxyJID=
+RememberPassword=false
+Resource=Kopete
+SendComposingEvent=true
+SendDeliveredEvent=true
+SendDisplayedEvent=true
+SendEvents=true
+SendGoneEvent=true
+Server=gmail.com
+UseSSL=false
+
+[Account_Kopete::Protocol_previewaccount]
+Identity=aPJYu84fl6
+
+[Appearance]
+styleName=Hacker
+toolTipContents=FormattedName,userInfo,server,channels,idleTime,channelMembers,channelTopic,emailAddress,homePage,onlineSince,lastOnline,statusTitle,statusMessage,currentSong
+
+[ContactList]
+contactListIconMode=IconPhoto
+showEmptyGroups=true
+
+[ContactList Layout]
+CurrentLayout=Default
+
+[General Options]
+Geometry=315,512
+Height 768=512
+Position=1047,108
+ShownIdentityId=r7ttG8aOgq
+State=AAAA/wAAAAD9AAAAAAAAATsAAAGvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABxAHUAaQBjAGsAUwBlAGEAcgBjAGgAQgBhAHIBAAAA3v////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=315
+WindowState=Hidden
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[IdentityManager]
+DefaultIdentity=r7ttG8aOgq
+
+[Identity_r7ttG8aOgq]
+Id=r7ttG8aOgq
+Label=Default Identity
+
+[Jabber]
+LocalIP=
+LocalPort=8010
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files=uniq.tar.gz,$HOME/Desktop/uniq_2/kopete/uniq.tar.gz
+Width 1366=683
+
+[KopeteChatWindowIndividualMode]
+ChatViewSplitter=AAAA/wAAAAAAAAACAAAA8AAAACgAAAAABgEAAAAC
+Height 768=361
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAAAAAAAAPwCAAAAAfsAAAAYAFAAYQByAHQAaQBjAGkAcABhAG4AdABzAAAAAAD/////AAAAagD///8AAAJXAAABEwAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAYwBoAGEAdABUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAaAHMAdABhAHQAdQBzAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAGgBmAG8AcgBtAGEAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+Width 1366=599
+
+[MainWindow]
+Height 768=361
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAAAAAAAAPwCAAAAAfsAAAAYAFAAYQByAHQAaQBjAGkAcABhAG4AdABzAAAAAAD/////AAAAagD///8AAAJXAAABEwAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAYwBoAGEAdABUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAaAHMAdABhAHQAdQBzAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAGgBmAG8AcgBtAGEAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=599
+
+[Notification Messages]
+hideOnCloseInfo=false
+
+[Plugins]
+kopete_jabberEnabled=true
+kopete_wlmEnabled=false
+
+[Status Manager]
+GlobalStatusCategory=2
+GlobalStatusMessage=
+GlobalStatusTitle=Online
+
+[chatwindow_{8a1a76ca-bb2c-4e83-93fc-8ae4588679fb}]
+EditAlignment=1
+TextBgColor=255,255,255
+TextFgColor=24,22,21
+TextFont=DejaVu Sans,8,-1,5,50,0,0,0,0,0
+
+[chatwindow_{8e9a1cc2-37d1-45f9-bebc-3458f45ed3b4}]
+EditAlignment=1
+TextBgColor=255,255,255
+TextFgColor=24,22,21
+TextFont=DejaVu Sans,8,-1,5,50,0,0,0,0,0
+
+[chatwindow_{da639ffb-1854-45fa-bde7-72903a509937}]
+EditAlignment=1
+TextBgColor=255,255,255
+TextFgColor=24,22,21
+TextFont=DejaVu Sans,8,-1,5,50,0,0,0,0,0

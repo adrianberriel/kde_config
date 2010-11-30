@@ -1,0 +1,10 @@
+[General]
+BorderSize=3
+CustomShadows=true
+Grouping=false
+InnerBorder=0
+OpaqueBorder=false
+OuterBorder=2
+
+[InactiveShadows]
+Size=35

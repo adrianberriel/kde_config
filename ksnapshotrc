@@ -1,0 +1,10 @@
+[GENERAL]
+delay=0
+filename[$e]=file://$HOME/Desktop/opensta%20-%20graphic1.png
+includeDecorations=true
+mode=2
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=$HOME/Pictures/Wallpapers/leaves.png,$HOME/Desktop/opensta - graphic.png,$HOME/Desktop/opensta - commander.png,$HOME/Desktop/opensta - script modeler.png,$HOME/Pictures/Wallpapers/ghost_ship.png,$HOME/Pictures/Wallpapers/moving_house.png,$HOME/Pictures/Wallpapers/guitar.png
+Width 1366=683

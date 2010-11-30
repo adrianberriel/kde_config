@@ -1,0 +1,8 @@
+[Auto Allow]
+kdewallet=Akonadi Resource,Plasma Workspace
+
+[Wallet]
+Close When Idle=false
+Enabled=true
+First Use=false
+Use One Wallet=true

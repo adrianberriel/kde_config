@@ -1,0 +1,24 @@
+[Advanced]
+KonquerorIntegration=true
+
+[Appearance]
+HeaderState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQAAAAAAAAAAAAAAAGQAAABQAAAAhAAAAAAAAAAA
+
+[Internal]
+FirstRun=false
+LastDirectory[$e]=$HOME/Desktop
+MainPosition=646,10
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=$HOME/Documents/Linux/Distros/ubuntu-10.10-desktop-amd64.iso,$HOME/Desktop/linuxmint-10-gnome-cd-i386.iso.torrent,$HOME/Desktop/htc tattoo/SPQRom-0.6.zip
+Width 1366=683
+
+[MainWindow]
+Height 768=308
+State=AAAA/wAAAAD9AAAAAAAAAsYAAAEcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAYAGsAZwBlAHQAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=710
+
+[Notification Messages]
+systemtrayquitKGet=false

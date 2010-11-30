@@ -1,0 +1,14 @@
+[BatteryManagement]
+BatteryCriticalLevel=3
+BatteryLowLevel=12
+BatteryWarningLevel=8
+
+[General]
+WaitBeforeSuspendingTime=40
+configLockScreen=false
+
+[Profiles]
+ACProfile=Performance
+BatteryProfile=Powersave
+LowProfile=Powersave
+WarningProfile=Powersave

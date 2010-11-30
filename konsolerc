@@ -1,0 +1,12 @@
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=/home/adri/.kde4/share/apps/konsole/Shell.profile
+
+[MainWindow]
+Height 768=421
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAwcAAAGlAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1366=775

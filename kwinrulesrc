@@ -1,0 +1,39 @@
+[1]
+Description=Window settings for plasma-desktop
+clientmachine=asus
+clientmachinematch=0
+position=161,69
+positionrule=3
+size=1050,610
+sizerule=2
+title=Desktop Settings – Plasma Workspace
+titlematch=1
+types=32
+wmclass=plasma-desktop
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
+Description=Window settings for wicd-client.py
+clientmachine=asus
+clientmachinematch=0
+skiptaskbar=true
+skiptaskbarrule=3
+title=Wicd Network Manager
+titlematch=1
+types=1
+wmclass=wicd-client.py
+wmclasscomplete=false
+wmclassmatch=1
+
+[3]
+Description=(Default) Disable focus stealing prevention for XV
+fsplevel=0
+fsplevelrule=2
+types=4294967295
+wmclass=^xv .*
+wmclasscomplete=true
+wmclassmatch=3
+
+[General]
+count=3

@@ -1,0 +1,29 @@
+[$Version]
+update_info=kfmclient_3_2.upd:kfmclient_3_2
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[FMSettings]
+AlwaysTabbedMode=false
+KonquerorTabforExternalURL=false
+MMBOpensTab=true
+MouseMiddleClickClosesTab=false
+NewTabsInFront=false
+OpenAfterCurrentPage=false
+PermanentCloseButton=true
+PopupsWithinTabs=false
+TabCloseActivatePrevious=false
+
+[Favorite Profiles]
+Favorites=
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+DownloadManager=kget
+
+[Undo]
+Number of Closed Windows=20
+
+[UserSettings]
+HomeURL=www.google.com

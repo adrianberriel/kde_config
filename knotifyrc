@@ -1,0 +1,10 @@
+[Misc]
+LastConfiguredApp=Accessibility
+
+[Phonon::AudioOutput]
+KNotify_Volume=0.550000011920929
+
+[Sounds]
+No sound=false
+Use external player=false
+Volume=55

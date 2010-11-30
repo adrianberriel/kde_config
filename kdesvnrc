@@ -1,0 +1,19 @@
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAIgBzAHUAYgB2AGUAcgBzAGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1367
+
+[Open-repository settings]
+History=file:///datos/Facultad/actuales/Investigaci%C3%B3n/proyecto,file:///datos/Facultad/actuales/Investigaci%C3%B3n/proyecto/trunk,https://subversion.assembla.com/svn/investigacion_experimentos/trunk,file:///datos/Facultad/actuales/TIS/Obligatorio
+
+[recent_files]
+File1[$e]=/datos/Facultad/actuales/TIS/Obligatorio
+File2[$e]=https://subversion.assembla.com/svn/investigacion_experimentos/trunk
+File3[$e]=/datos/Facultad/actuales/Investigación/proyecto
+Name1[$e]=Obligatorio
+Name2[$e]=trunk
+Name3[$e]=proyecto
+
+[startup]
+lastURL=file:///datos/Facultad/actuales/TIS/Obligatorio

@@ -1,0 +1,52 @@
+[AudioDevice_HDA Intel, INTEL HDMI\nHDMI Audio Output_playback]
+cardName=HDA Intel, INTEL HDMI (HDMI Audio Output)
+deleted=true
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-5
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_HDA Intel, INTEL HDMI 0\nHDMI Audio Output_playback]
+cardName=HDA Intel, INTEL HDMI 0 (HDMI Audio Output)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-3
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_pci:8086:293e:1043:1743:0:capture]
+cardName=HDA Intel (ALC269 Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-4
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_pci:8086:293e:1043:1743:0:playback]
+cardName=HDA Intel (ALC269 Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-1
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_pci:8086:293e:1043:1743:3:playback]
+cardName=HDA Intel (INTEL HDMI 0)
+deleted=false
+deviceNumber=3
+hotpluggable=false
+iconName=audio-card
+index=-2
+initialPreference=33
+isAdvanced=true
+
+[Globals]
+nextIndex=6

@@ -1,0 +1,66 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1366=700
+
+[General]
+perVirtualDesktopViews=true
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=surfer.png,$HOME/Pictures/Wallpapers/3875787242_c990bb37c6_b.jpg,$HOME/Pictures/Wallpapers/1366-768-38153.jpg,$HOME/Pictures/Wallpapers/moto2.png,$HOME/Pictures/Wallpapers/3881373029_f54dfdb518_o.jpg,$HOME/.kde4/share/icons/Faenza/places/scalable/distributor-logo-archlinux.svg,$HOME/Pictures/Wallpapers/leaves.png,$HOME/.kde4/share/apps/plasma/plasmoids/gmail-plasmoid/contents/icons/unread.svg,$HOME/.kde4/share/apps/plasma/plasmoids/gmail-plasmoid/contents/icons/read.svg,$HOME/Pictures/Wallpapers/35957.jpg,$HOME/Pictures/Wallpapers/ghost_ship.png,$HOME/Pictures/Wallpapers/moving_house.png,$HOME/.local/share/icons/kde_smooth.png,/usr/share/icons/archlinux-kde/scalable/places/start-here-kde.svgz,$HOME/Pictures/Wallpapers/guitar.png
+Width 1366=683
+
+[KPropertiesDialog]
+Height 768=344
+Width 1366=293
+
+[Open-with settings]
+CompletionMode=5
+History=adobe-air,kate,ark
+
+[PlasmaViews][14]
+DashboardContainment=80
+
+[PlasmaViews][15]
+DashboardContainment=80
+
+[PlasmaViews][16]
+DashboardContainment=80
+
+[PlasmaViews][17]
+DashboardContainment=80
+
+[PlasmaViews][18]
+DashboardContainment=80
+
+[PlasmaViews][9]
+Offset=0
+panelVisibility=0
+
+[PlasmaViews][9][Sizes]
+lastsize=1366
+
+[PlasmaViews][9][Sizes][Horizontal1366]
+max=1366,24
+min=1366,24
+offset=0
+size=1366,24
+
+[PlasmaViews][9][Sizes][Vertical768]
+max=24,768
+min=24,768
+offset=0
+size=24,768
+
+[Updates]
+performed=/usr/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js
+
+[ViewIds]
+110=16
+112=18
+121=15
+135=17
+47=9

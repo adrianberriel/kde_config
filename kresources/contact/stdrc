@@ -1,0 +1,12 @@
+[General]
+PassiveResourceKeys=
+ResourceKeys=miNPbyTCzL
+Standard=miNPbyTCzL
+
+[Resource_miNPbyTCzL]
+FileFormat=vcard
+ResourceIdentifier=miNPbyTCzL
+ResourceIsActive=true
+ResourceIsReadOnly=false
+ResourceName=Default Address Book
+ResourceType=file

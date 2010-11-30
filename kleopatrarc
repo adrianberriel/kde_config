@@ -1,0 +1,35 @@
+[MainWindow]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKKAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAaAHMAZQBhAHIAYwBoAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1367
+
+[View #0]
+column-sizes=100,100,100,100,100,100
+hierarchical-view=true
+key-filter=my-certificates
+magic=262254561
+sort-column=0
+sort-descending=true
+string-filter=
+title=
+
+[View #1]
+column-sizes=100,100,100,100,100,100
+hierarchical-view=true
+key-filter=trusted-certificates
+magic=262254561
+sort-column=0
+sort-descending=true
+string-filter=
+title=
+
+[View #2]
+column-sizes=100,100,100,100,100,100
+hierarchical-view=true
+key-filter=other-certificates
+magic=262254561
+sort-column=0
+sort-descending=true
+string-filter=
+title=

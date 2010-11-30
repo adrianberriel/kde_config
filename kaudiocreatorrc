@@ -1,0 +1,39 @@
+[$Version]
+update_info=kaudiocreator-libkcddb.upd:kaudiocreator-libkcddb,kaudiocreator-meta.upd:3
+
+[CD]
+lastUsedDevice=/dev/sr0 (MATSHITA DVD-RAM UJ862AS)
+
+[Encoder]
+inputTypesList=wav
+
+[Encoder_FLAC Best]
+commandLine[$e]=flac --best -o %o --tag=Artist=%{artist} --tag=Album=%{albumtitle} --tag=Date=%{year} --tag=Title=%{title} --tag=Tracknumber=%{number} --tag=Genre=%{genre} %f
+encoderName=FLAC Best
+extension=flac
+inputTypes=wav
+
+[Encoder_MP3 Lame Standard]
+commandLine[$e]=lame --preset standard --tt %{title} --ta %{artist} --tl %{albumtitle} --ty %{year} --tn %{number} --tg %{genre} %f %o
+encoderName=MP3 Lame Standard
+extension=mp3
+inputTypes=wav
+
+[Encoder_Ogg Default]
+commandLine[$e]=oggenc -o %o --artist %{artist} --album %{albumtitle} --title %{title} --date %{year} --tracknum %{number} --genre %{genre} %f
+encoderName=Ogg Default
+extension=ogg
+inputTypes=wav
+percentLength=4
+
+[Encoder_WAV]
+commandLine[$e]=cp %f %o
+encoderName=WAV
+extension=wav
+inputTypes=wav
+
+[MainWindow]
+Height 768=490
+State=AAAA/wAAAAD9AAAAAAAAAqYAAAGgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAYAE0AYQBpAG4AIABUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=678

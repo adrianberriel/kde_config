@@ -1,0 +1,95 @@
+[General Options]
+ShowPath=false
+ShowStatusBar=true
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=$HOME/Desktop/dir.txt,$HOME/.config/tint2/tint2rc.original
+Width 1366=683
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=true
+BOM=false
+Backup Config Flags=0
+Backup Prefix=
+Backup Suffix=~
+Basic Config Flags=11010080
+Encoding=UTF-8
+End of Line=0
+Indentation Mode=
+Indentation Width=2
+On-The-Fly Spellcheck=false
+PageUp/PageDown Moves Cursor=false
+Search Dir Config Depth=3
+Tab Handling=2
+Tab Width=8
+Word Wrap=false
+Word Wrap Column=80
+
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[Kate Renderer Defaults]
+Schema=kwrite - Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+
+[Kate View Defaults]
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap=false
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Folding Bar=true
+Icon Bar=false
+Line Numbers=true
+Maximum Search History Size=100
+Persistent Selection=false
+Replacement Text History=\s,
+Scroll Bar Marks=false
+Scroll Past End=false
+Search Pattern History="\\,","
+Search/Replace Flags=140
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Hide Status Bar=false
+Vi Input Mode Steal Keys=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+
+[MainWindow]
+Height 768=642
+State=AAAA/wAAAAD9AAAAAAAAA4YAAAJVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=902
+
+[Recent Files]
+File1[$e]=/etc/tomcat.d/catalina.policy
+File10[$e]=/opt/analog/analog.cfg
+File2[$e]=$HOME/.nanorc
+File3[$e]=$HOME/Facultad/actuales/Investigación/eclipse_pruebas/EjmploJSF2/WebContent/LoginView.jsp
+File4[$e]=$HOME/Documents/Scripts/vol.sh
+File5[$e]=$HOME/.local/share/applications/adobe-air.desktop
+File6[$e]=$HOME/.config/menus/kde-applications-merged/wine-Programs-AlterWind Log Analyzer Lite-AlterWind Log Analyzer Lite Help.menu
+File7[$e]=$HOME/.config/menus/kde-applications-merged/wine-Programs-Microsoft Office-Microsoft Office Project 2007.menu
+File8[$e]=$HOME/Desktop/Facultad pendrive/obligatorio ar/KBPersistencia/src/uy/edu/ort/as/kb/persistencia/IKBPersistencia.java
+File9[$e]=$HOME/Facultad/actuales/WM/archivos universia/20030301web.log
+Name1[$e]=catalina.policy
+Name10[$e]=analog.cfg
+Name2[$e]=.nanorc
+Name3[$e]=LoginView.jsp
+Name4[$e]=vol.sh
+Name5[$e]=adobe-air.desktop
+Name6[$e]=wine-Programs-AlterWind Log Analyzer Lite-AlterWind Log Analyzer Lite Help.menu
+Name7[$e]=wine-Programs-Microsoft Office-Microsoft Office Project 2007.menu
+Name8[$e]=IKBPersistencia.java
+Name9[$e]=20030301web.log

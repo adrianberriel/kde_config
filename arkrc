@@ -1,0 +1,37 @@
+[AddDialog]
+LastMimeType=application/zip
+
+[KFileDialog Settings]
+Height 768=464
+Recent Files[$e]=EN.tar.gz,$HOME/Facultad/actuales/TIS/Obligatorio/Requerimientos/ESRE.zip
+Width 1366=683
+
+[MainWindow]
+Height 768=405
+State=AAAA/wAAAAD9AAAAAAAAAmIAAAFHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=610
+splitterSizes=634,0
+splitterSizesWithBothWidgets=364,270
+
+[Recent Files]
+File1[$e]=$HOME/Documents/Linux/Personalización/uniq_2/plasma/uniq.tar.gz
+File10[$e]=$HOME/Desktop/Report.html.rar
+File2[$e]=/boot/kernel26-autogroup-fallback.img
+File3[$e]=/var/log/bootchart.tgz
+File4[$e]=$HOME/Videos/LA_VELA_PUERCA.iso
+File5[$e]=$HOME/Desktop/MockupsForDesktop.air
+File6[$e]=$HOME/Facultad/actuales/TIS/Obligatorio_2010-11-25.tar.gz
+File7[$e]=$HOME/Documents/Software/MicrosoftOffice2003.iso
+File8[$e]=$HOME/Desktop/chapter06.zip
+File9[$e]=$HOME/Desktop/chapter04.zip
+Name1[$e]=uniq.tar.gz
+Name10[$e]=Report.html.rar
+Name2[$e]=kernel26-autogroup-fallback.img
+Name3[$e]=bootchart.tgz
+Name4[$e]=LA_VELA_PUERCA.iso
+Name5[$e]=MockupsForDesktop.air
+Name6[$e]=Obligatorio_2010-11-25.tar.gz
+Name7[$e]=MicrosoftOffice2003.iso
+Name8[$e]=chapter06.zip
+Name9[$e]=chapter04.zip

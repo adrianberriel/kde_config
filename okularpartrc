@@ -1,0 +1,6 @@
+[General]
+UseKTTSD=false
+
+[Main View]
+ShowLeftPanel=false
+SplitterSizes=242,655

@@ -1,0 +1,13 @@
+[DockerManager]
+HiddenToolDockers=
+VisibleToolDockers=
+
+[KFileDialog Settings]
+Height 768=390
+Width 1366=683
+
+[RecentFiles]
+File1[$e]=$HOME/.kde4/share/apps/desktoptheme/Mix1/icons/device.svgz
+File2[$e]=$HOME/.kde4/share/apps/desktoptheme/Mix1/icons/device.svg
+Name1[$e]=device.svgz
+Name2[$e]=device.svg

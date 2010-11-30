@@ -1,0 +1,16 @@
+[Effect-BoxSwitch]
+DesktopTabBox=false
+
+[Effect-CoverSwitch]
+DesktopTabBox=false
+
+[Effect-FlipSwitch]
+DesktopTabBox=false
+
+[Effect-PresentWindows]
+DesktopLayoutMode=0
+DesktopTabBox=false
+
+[TitleBarButtons]
+DesktopLeft=
+DesktopRight=

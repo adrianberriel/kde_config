@@ -1,0 +1,63 @@
+[AdditionalInfoDialog]
+Height 768=261
+Width 1366=248
+
+[ColumnMode]
+FontWeight=50
+IconSize=22
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DetailsMode]
+ExpandableFolders=true
+FontWeight=50
+IconSize=22
+
+[Favorite Profiles]
+Favorites=
+
+[FileMetaDataConfigurationDialog]
+Height 768=252
+Width 1366=271
+
+[General]
+ConfirmClosingMultipleTabs=false
+FirstRun=false
+GlobalViewProps=true
+HomeUrl=file:///home/adri
+RenameInline=true
+ShowFullPath=true
+ShowZoomSlider=false
+ViewPropsTimestamp=2010,10,2,13,39,9
+
+[IconsMode]
+FontWeight=50
+IconSize=64
+ItemHeight=100
+PreviewSize=96
+
+[KPropertiesDialog]
+Height 768=377
+Width 1366=420
+
+[MainWindow]
+Height 768=467
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACVAAABu/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAAAAABGAAAABcA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawAAAAAYAAABuwAAAGMA////AAAAAQAAALwAAAG7/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAABgAAAG7AAAAFwD///8AAAADAAACvgAAALD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACvgAAAFEA////AAACvgAAAbsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAaAHMAZQBhAHIAYwBoAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=702
+
+[Open-with settings]
+CompletionMode=5
+History=karbon,/usr/bin/soffice-beta -draw,ark -caption "%c" %U,vlc %U,vlc,okteta,kate,kid3,konsole,env WINEPREFIX="/home/adri/.wine" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/adri/.wine/dosdevices/c:/users/adri/Start\\\\ Menu/Programs/Microsoft\\\\ Office/Microsoft\\\\ Office\\\\ Project\\\\ 2007.lnk,kate -b %U,kwrite,env WINEPREFIX="/home/adri/.wine" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/adri/.wine/dosdevices/c:/users/adri/Start\\\\ Menu/Programs/Microsoft\\\\ Office/Microsoft\\\\ Office\\\\ Word\\\\ 2007.lnk,ark,/usr/bin/soffice-beta -writer
+
+[PreviewSettings]
+Plugins=
+
+[SettingsDialog]
+Height 768=431
+Width 1366=512
+
+[ViewPropertiesDialog]
+Height 768=395
+Width 1366=341

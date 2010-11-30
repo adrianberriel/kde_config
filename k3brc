@@ -1,0 +1,206 @@
+[Audio Ripping]
+blank replace string=_
+create_playlist=false
+encoder=k3blameencoder
+filename pattern=%A - %T/%n - !a='%A'{%a - }%t
+filetype=mp3
+last ripping directory[$e]=file://$HOME/Desktop
+never_skip=true
+paranoia_mode=0
+playlist pattern=%{albumartist} - %{albumtitle}
+read_retries=5
+relative_path_in_playlist=false
+replace blanks=false
+single_file=false
+use_index0=false
+write_cue_file=false
+
+[Devices]
+MATSHITA DVD-RAM UJ862AS=11080,11080
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/wodim
+cdrecord last seen newest version=1.1.10
+cdrecord user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/genisoimage
+mkisofs last seen newest version=1.1.10
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readom
+readcd last seen newest version=1.1.10
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/opt/schily/bin/,/sbin
+sox user parameters=
+transcode default=/usr/bin/transcode
+transcode last seen newest version=1.1.5
+transcode user parameters=
+vcdxbuild user parameters=
+vcdxminfo user parameters=
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=2.0.1
+Lock Panels=true
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Show advanced GUI=false
+Show progress OSD=true
+Show splash=true
+Temp Dir=/tmp/kde-adri/
+action dialog startup settings=2
+ask_for_saving_changes_on_exit=true
+auto rewritable erasing=false
+burnfree=true
+check system config=true
+config version=2.0.1
+current theme=quant
+current_writer=/dev/sr0
+hide main window while writing=false
+keep action dialogs open=false
+
+[K3bLameEncoderPlugin]
+Average Bitrate=128
+Constant Bitrate=128
+Copyright=false
+Encoder Quality=7
+Error Protection=false
+ISO compliance=false
+Manual Bitrate Settings=false
+Maximum Bitrate=224
+Minimum Bitrate=32
+Mode=stereo
+Original=true
+Quality Level=5
+Use Average Bitrate=true
+Use Maximum Bitrate=false
+Use Minimum Bitrate=false
+VBR=false
+
+[OSD Position]
+Position=15,733
+Screen=0
+
+[TipOfDay]
+RunOnStart=false
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=/media/disk/
+show bookmarks=false
+
+[image writing]
+recent images[$e]=$HOME/Documents/Software/OFFBLUESPN07.iso
+
+[last used Audio Ripping]
+blank replace string=_
+create_playlist=false
+encoder=k3blameencoder
+filename pattern=%A - %T/%n - !a='%A'{%a - }%t
+filetype=mp3
+last ripping directory[$e]=file://$HOME/Desktop
+never_skip=true
+paranoia_mode=0
+playlist pattern=%{albumartist} - %{albumtitle}
+read_retries=5
+relative_path_in_playlist=false
+replace blanks=false
+single_file=false
+use_index0=false
+write_cue_file=false
+
+[last used VideoDVD Ripping]
+audio bitrate=128
+audio codec=mp3
+audio resampling=false
+auto clipping=false
+base dir[$e]=/tmp/kde-adri/
+blank replace string=_
+filename pattern=%b - Title %t (%n %a %c)
+low priority=true
+replace blanks=false
+two pass encoding=true
+vbr audio=true
+video bitrate=1200
+video codec=ffmpeg_mpeg4
+
+[last used default data settings]
+abstract file=
+allow 31 character filenames=true
+allow beginning period=false
+allow lowercase filenames=false
+allow multiple dots=false
+application id=K3B THE CD KREATOR (C) 1998-2010 SEBASTIAN TRUEG AND MICHAL MALEK
+bibliograph file=
+copies=2
+copyright file=
+create TRANS_TBL=false
+data_track_mode=auto
+discard broken symlinks=false
+discard symlinks=false
+do not cache inodes=true
+do not import last session=false
+follow symbolic links=false
+hide TRANS_TBL=false
+image path[$e]=/tmp/kde-adri/Taller Ingenieria.iso
+iso_level=3
+joliet=true
+joliet long=true
+max ISO filenames=false
+multisession mode=auto
+no iSO translation=false
+omit trailing period=false
+omit version numbers=false
+on_the_fly=true
+only_create_image=false
+preparer=
+preserve file permissions=false
+publisher=
+relaxed filenames=false
+remove_image=true
+rock_ridge=true
+simulate=false
+system id=LINUX
+udf=false
+untranslated filenames=false
+verify data=false
+volume id=Taller Ingenieria
+volume set id=
+volume set number=1
+volume set size=1
+white_space_treatment=noChange
+whitespace replace string=_
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[main_window_settings]
+Height 768=769
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAVWAAABQvwBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAABGQAAAFMA////+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAABHwAABDcAAAEYAP///wAAAAMAAAVWAAABQvwBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAVWAAACIwD///8AAAVWAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1367

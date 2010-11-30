@@ -1,0 +1,16 @@
+[AdBlock]
+lastUpdate=2010,11,14,17,6,24
+
+[MainWindow]
+Height 768=561
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAYAGgAaQBzAHQAbwByAHkAUABhAG4AZQBsAAAAAAD/////AAAAFwD////7AAAAHABiAG8AbwBrAG0AYQByAGsAcwBQAGEAbgBlAGwAAAAAAP////8AAAAXAP///wAAAAMAAAAAAAAAAPwBAAAAAvsAAAAgAHcAZQBiAEkAbgBzAHAAZQBjAHQAbwByAEQAbwBjAGsAAAAAAP////8AAABFAP////sAAAAmAG4AZQB0AHcAbwByAGsAQQBuAGEAbAB5AHoAZQByAEQAbwBjAGsAAAAAAP////8AAABFAP///wAABFIAAAIRAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1106
+
+[NewTabPage]
+previewNames=KDE Homepage,UserBase
+previewUrls=http://www.kde.org,http://userbase.kde.org
+
+[misc]
+walletBlackList=https://www.google.com/accounts/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/?ui=html&zy=l&bsv=1eic6yu9oa4y3&scc=1&ltmpl=default&ltmplcache=2

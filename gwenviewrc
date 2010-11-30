@@ -1,0 +1,28 @@
+[General]
+UrlNavigatorIsEditable=true
+
+[ImageView]
+ThumbnailSplitterSizes=346,99
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=$HOME/Pictures/Fotos/P1000029_croped.jpeg,$HOME/Pictures/Fotos/P1000029_croped.jpeg
+Width 1366=679
+
+[MainWindow]
+Height 768=545
+State=AAAA/wAAAAD9AAAAAAAAAgwAAAHpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=524
+
+[SideBar-BrowseMode]
+CurrentPage=information
+IsVisible=false
+
+[SideBar-FullScreenMode]
+CurrentPage=information
+IsVisible=false
+
+[SideBar-ViewMode]
+CurrentPage=information
+IsVisible=false

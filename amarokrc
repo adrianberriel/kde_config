@@ -1,0 +1,133 @@
+[Collection Browser]
+TreeCategory=2,1
+View Mode=NormalCollections
+
+[Collection Folders]
+-1=./home/adri/Music
+Use MusicLocation=true
+
+[Cool Streams]
+Cool StreamsEnabled=false
+
+[Cover Fetcher]
+Height 768=370
+Width 1366=625
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1366=700
+
+[File Browser]
+Current Directory=/home/adri
+
+[FilenameLayoutDialog]
+Custom Scheme=
+
+[General]
+Browser Path=root list/collections
+Debug Enabled=false
+First Run=false
+HiddenOnExit=false
+LayoutFileDeleted=true
+
+[General Options]
+AutoGetCoverArt=true
+Last Dynamic Mode=Random
+PlayFirstRunJingle=false
+Track Progression=RepeatPlaylist
+
+[KFileDialog Settings]
+Height 768=390
+Recent Files[$e]=116823-shoutcast_service_1.01.amarokscript.tar.gz,$HOME/Music/Enanitos Verdes/Antologia/Enanitos Verdes - 00 - Antologia [cd Cover].jpg
+Width 1366=683
+
+[Librivox.org]
+Librivox.orgEnabled=false
+
+[Loaded Playlist Files]
+file:///home/adri/Music/Black%20Sabbath/Heaven%20And%20Hell/Heaven%20And%20Hell.m3u=
+file:///home/adri/Music/Black%20Sabbath/Heaven%20And%20Hell/Heaven%20And%20Hell.pls=
+file:///home/adri/Music/Eagles/Hotel%20California/Eagles%20-%20Hotel%20California.m3u=
+file:///home/adri/Music/Eric%20Clapton/The%20Cream%20of%20Clapton%20-%20(1994)/Eric%20Clapton%20-%20The%20Cream%20of%20Clapton.m3u=
+file:///home/adri/Music/Eric%20Clapton/Unplugged%20-%20(1992)/Eric%20Clapton%20-%20Unplugged.m3u=
+file:///home/adri/Music/Isis/In%20The%20Absence%20Of%20Truth/00-isis-in_the_absence_of_truth-(retail)-2006.m3u=
+file:///home/adri/Music/Isis/Live%205/00-isis-live_5_07.23.06-2009.m3u=
+file:///home/adri/Music/Megadeth/Countdown%20To%20Extinction/00_megadeth-countdown_to_extinction_remastered-2004-amrc.m3u=
+file:///home/adri/Music/Megadeth/Rust%20In%20Peace/00-megadeth-rust_in_peace-(remastered)-2004-rns.m3u=
+file:///home/adri/Music/Megadeth/The%20System%20Has%20Failed/The%20System%20Has%20Failed.m3u=
+file:///home/adri/Music/Rammstein/Mutter/Mutter.m3u=
+
+[Lyricwiki]
+LyricWikiEnabled=false
+
+[MainWindow]
+Height 768=534
+State=AAAA/wAAAAD9AAAAAQAAAAAAAANcAAABp/wBAAAAAvwAAAAAAAAB1wAAAHsA////+gAAAAACAAAAAvsAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAD/////AAABSQD///77AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAARAAABev////8A////+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAHdAAABfwAAAOsA////AAAAAAAAAacAAAAEAAAABAAAAAgAAAAI/AAAAAIAAAACAAAAAQAAABgAUwBsAGkAbQAgAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAMAAAABAAAAFgBNAGEAaQBuAFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=860
+
+[MySQL]
+CheckCount=4
+
+[Notification Messages]
+hideOnCloseInfo=false
+systemtrayquitAmarok=false
+
+[OSD]
+Osd Alignment=Right
+Osd Y Offset=23
+
+[Phonon::AudioOutput]
+Amarok_Volume=0.79
+
+[Playback]
+Master Volume=79
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchComposer=false
+MatchGenre=false
+MatchRating=false
+MatchTrack=true
+
+[Plugins]
+Amarok Script ConsoleEnabled=false
+Cool StreamsEnabled=true
+Librivox.orgEnabled=true
+LyricWikiEnabled=true
+SHOUTcast Service tralalaEnabled=true
+SHOUTcast ServiceEnabled=false
+
+[Podcast View]
+Merged View=false
+
+[Podcasts]
+AutoUpdate Interval=30
+Maximum Simultaneous Downloads=4
+Maximum Simultaneous Updates=4
+
+[SHOUTcast Service tralala]
+SHOUTcast Service tralalaEnabled=false
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+LastUpdateCheck=1290693523
+Running Scripts=Cool Streams,Librivox.org,Lyricwiki,SHOUTcast Service tralala
+
+[Service_Mp3tunes]
+email=
+harmonyEmail=
+harmonyEnabled=false
+identifier=0026186C3A0E4895500420
+partnerToken=4895500420
+password=
+pin=
+
+[Session]
+LastPlaying=4
+
+[TagDialog]
+CurrentTab=1

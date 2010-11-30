@@ -1,0 +1,361 @@
+[audiocodec0]
+encoder=mencoder
+extension=
+name=copy
+opt=-oac copy
+
+[audiocodec1]
+encoder=mencoder
+extension=
+name=mp2
+opt=-oac lavc -lavcopts acodec=mp2:abitrate=$AUDBR
+
+[audiocodec10]
+encoder=ffmpeg
+extension=.aac
+name=aac
+opt=-acodec libfaac -ab $AUDBRk -ac 2
+
+[audiocodec2]
+encoder=mencoder
+extension=
+name=ac3
+opt=-oac lavc -lavcopts acodec=ac3:abitrate=$AUDBR
+
+[audiocodec3]
+encoder=mencoder
+extension=
+name=IMA Adaptive PCM
+opt=-oac lavc -lavcopts acodec=adpcm_ima_wav:abitrate=$AUDBR
+
+[audiocodec4]
+encoder=mencoder
+extension=
+name=sonic
+opt=-oac lavc -lavcopts acodec=sonic:abitrate=$AUDBR
+
+[audiocodec5]
+encoder=mencoder
+extension=
+name=aac
+opt=-oac faac -faacopts br=$AUDBR
+
+[audiocodec6]
+encoder=mencoder
+extension=
+name=mp3 (lame)
+opt=-oac mp3lame -lameopts abr:br=$AUDBR
+
+[audiocodec7]
+encoder=ffmpeg
+extension=
+name=copy
+opt=-acodec copy
+
+[audiocodec8]
+encoder=ffmpeg
+extension=.mp3
+name=mp3
+opt=-acodec libmp3lame -ab $AUDBRk -ac 2
+
+[audiocodec9]
+encoder=ffmpeg
+extension=.ogg
+name=vorbis
+opt=-acodec vorbis -ab $AUDBRk -ac 2
+
+[authoring]
+audioBitrate=192
+audioFormat=AC3
+buttonFont=,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,0
+buttonHeight=40
+buttonHiliteColor=255,255,0
+buttonTextColor=255,255,0
+buttonWidth=50
+
+[codecs]
+AudioCount=11
+VideoCount=27
+
+[devices]
+IO=
+dev=
+input=0
+labels=
+output=101
+
+[dir]
+output=/tmp/kde-adri/k9copy/
+outputAudio=/home/adri/Videos/
+outputIso=/home/adri/Videos/
+outputMpeg2=/home/adri/Videos/
+outputMpeg4=/home/adri/Videos/
+
+[gui]
+columns=true,true,true,true
+showOutput=false
+
+[mp4]
+2passes=false
+aspectRatio=true
+audiobitrate=128
+audiocodec=0
+audiogain=7
+codec=0
+encoder=mencoder
+height=
+mpegchapters=true
+numberCD=1
+size=700
+usecellcache=true
+videobitrate=
+width=720
+
+[options]
+audiolang=
+autoburn=false
+deltmpfiles=false
+dvdsize=4400
+keepMenus=true
+quickscan=true
+readahead=-1
+subtitlelang=
+useDvdAuthor=true
+usek3b=false
+userops=false
+version=2.3.6
+
+[preview]
+MplayerAout=0
+MplayerVout=0
+XineAout=0
+XineVout=0
+useGL=false
+useMplayer=false
+usePhonon=false
+useXine=false
+
+[programs]
+Dvdauthor=/usr/bin/dvdauthor
+FFmpeg=/usr/bin/ffmpeg
+Genisoimage=/usr/bin/genisoimage
+Mencoder=/usr/bin/mencoder
+Mplayer=/usr/bin/mplayer
+Wodim=/usr/bin/wodim
+k3b=/usr/bin/k3b
+
+[videocodec0]
+encoder=mencoder
+fourcc=
+name=copy
+opt1=-ovc copy
+opt2=-ovc copy
+opt3=-ovc copy
+
+[videocodec1]
+encoder=mencoder
+fourcc=
+name=XviD
+opt1=-ovc xvid -xvidencopts bitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc xvid -xvidencopts bitrate=$VIDBR:turbo:pass=$PASS:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc xvid -xvidencopts bitrate=$VIDBR:turbo:pass=$PASS:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec10]
+encoder=mencoder
+fourcc=
+name=MS MPEG-4 v2
+opt1=-ovc lavc -lavcopts vcodec=msmpeg4v2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=msmpeg4v2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=msmpeg4v2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec11]
+encoder=mencoder
+fourcc=
+name=WMV7
+opt1=-ovc lavc -lavcopts vcodec=wmv1:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=wmv1:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=wmv1:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec12]
+encoder=mencoder
+fourcc=
+name=WMV8
+opt1=-ovc lavc -lavcopts vcodec=wmv2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=wmv2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=wmv2:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec13]
+encoder=mencoder
+fourcc=
+name=RealVideo
+opt1=-ovc lavc -lavcopts vcodec=rv10:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=rv10:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=rv10:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec14]
+encoder=mencoder
+fourcc=
+name=MPEG-1 Video
+opt1=-ovc lavc -lavcopts vcodec=mpeg1video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=mpeg1video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=mpeg1video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec15]
+encoder=mencoder
+fourcc=
+name=MPEG-2 Video
+opt1=-ovc lavc -lavcopts vcodec=mpeg2video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=mpeg2video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=mpeg2video:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec16]
+encoder=mencoder
+fourcc=
+name=Huffmann yuv
+opt1=-ovc lavc -lavcopts vcodec=huffyuv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:format=422p -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=huffyuv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT::format=422p:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=huffyuv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT::format=422p:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec17]
+encoder=mencoder
+fourcc=
+name=ffv Huffmann
+opt1=-ovc lavc -lavcopts vcodec=ffvhuff:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=ffvhuff:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=ffvhuff:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec18]
+encoder=mencoder
+fourcc=
+name=ASUS v1
+opt1=-ovc lavc -lavcopts vcodec=asv1:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=asv1:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=asv1:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec19]
+encoder=mencoder
+fourcc=
+name=ASUS v2
+opt1=-ovc lavc -lavcopts vcodec=asv2:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=asv2:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=asv2:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec2]
+encoder=mencoder
+fourcc=
+name=x264
+opt1=-ovc x264 -x264encopts bitrate=$VIDBR:threads=0 -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc x264 -x264encopts bitrate=$VIDBR:turbo=1:pass=$PASS:threads=0 -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc x264 -x264encopts bitrate=$VIDBR:turbo=1:pass=$PASS:threads=0 -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec20]
+encoder=mencoder
+fourcc=
+name=flv
+opt1=-ovc lavc -lavcopts vcodec=flv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=flv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=flv:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec21]
+encoder=ffmpeg
+fourcc=
+name=copy
+opt1=-vcodec copy
+opt2=-vcodec copy
+opt3=-vcodec copy
+
+[videocodec22]
+encoder=ffmpeg
+fourcc=
+name=x264
+opt1=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -level 30
+opt2=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -pass $PASS -passlogfile $PASSLOGFILE -level 30
+opt3=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -pass $PASS -passlogfile $PASSLOGFILE -level 30
+
+[videocodec23]
+encoder=ffmpeg
+fourcc=
+name=x264 (high)
+opt1=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -level 30 -flags +loop+mv4 -cmp 256 -partitions +parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 -me_method hex -subq 7 -trellis 1 -refs 5 -bf 3 -flags2 +bpyramid+wpred+mixed_refs+dct8x8 -coder 1 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10 -qmax 51 -qdiff 4
+opt2=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -level 30 -flags +loop+mv4 -cmp 256 -partitions +parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 -me_method hex -subq 7 -trellis 1 -refs 5 -bf 3 -flags2 +bpyramid+wpred+mixed_refs+dct8x8 -coder 1 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10 -qmax 51 -qdiff 4 -pass $PASS -passlogfile $PASSLOGFILE
+opt3=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec libx264 -level 30 -flags +loop+mv4 -cmp 256 -partitions +parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 -me_method hex -subq 7 -trellis 1 -refs 5 -bf 3 -flags2 +bpyramid+wpred+mixed_refs+dct8x8 -coder 1 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10 -qmax 51 -qdiff 4 -pass $PASS -passlogfile $PASSLOGFILE
+
+[videocodec24]
+encoder=ffmpeg
+fourcc=
+name=MPEG-4\s
+opt1=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec mpeg4\s
+opt2=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec mpeg4  -pass $PASS -passlogfile $PASSLOGFILE
+opt3=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec mpeg4 -pass $PASS -passlogfile $PASSLOGFILE
+
+[videocodec25]
+encoder=ffmpeg
+fourcc=
+name=Flash Video
+opt1=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec flv\s
+opt2=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec flv -pass $PASS -passlogfile $PASSLOGFILE
+opt3=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec flv -pass $PASS -passlogfile $PASSLOGFILE
+
+[videocodec26]
+encoder=ffmpeg
+fourcc=
+name=Windows Media 8
+opt1=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec wmv2
+opt2=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec wmv2 -pass $PASS -passlogfile $PASSLOGFILE
+opt3=-b $VIDBRk -s $WIDTHx$HEIGHT -croptop $CROPTOP -cropbottom $CROPBOTTOM -cropleft $CROPLEFT -cropright $CROPRIGHT -aspect $ASPECT -vcodec wmv2 -pass $PASS -passlogfile $PASSLOGFILE
+
+[videocodec3]
+encoder=mencoder
+fourcc=
+name=MJPEG
+opt1=-ovc lavc -lavcopts vcodec=mjpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=mjpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=mjpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec4]
+encoder=mencoder
+fourcc=
+name=LJPEG
+opt1=-ovc lavc -lavcopts vcodec=ljpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=ljpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=ljpeg:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec5]
+encoder=mencoder
+fourcc=
+name=H261
+opt1=-ovc lavc -lavcopts vcodec=h261:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=h261:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=h261:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec6]
+encoder=mencoder
+fourcc=
+name=H263
+opt1=-ovc lavc -lavcopts vcodec=h263:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=h263:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=h263:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec7]
+encoder=mencoder
+fourcc=
+name=H263+
+opt1=-ovc lavc -lavcopts vcodec=h263p:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=h263p:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=h263p:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec8]
+encoder=mencoder
+fourcc=DIVX
+name=MPEG-4 (DivX 4/5)
+opt1=-ovc lavc -lavcopts vcodec=mpeg4:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT  -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=mpeg4:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=mpeg4:vhq:v4mv:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+
+[videocodec9]
+encoder=mencoder
+fourcc=DIVX
+name=MS MPEG-4 (DivX 3)
+opt1=-ovc lavc -lavcopts vcodec=msmpeg4:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt2=-ovc lavc -lavcopts vcodec=msmpeg4:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT
+opt3=-ovc lavc -lavcopts vcodec=msmpeg4:vhq:vqmin=2:vbitrate=$VIDBR:aspect=$ASPECT:turbo:vpass=$PASS -vf crop=$CROPWIDTH:$CROPHEIGHT:$CROPLEFT:$CROPTOP,scale=$WIDTH:$HEIGHT,dsize=$ASPECT

@@ -1,0 +1,14 @@
+[StoredApplets][1]
+geometry=0,0,910,512
+immutability=1
+plugin=ihatethecashew
+zvalue=0
+
+[StoredApplets][2]
+geometry=0,0,250,350
+immutability=1
+plugin=weatherstation
+zvalue=0
+
+[StoredApplets][2][Configuration]
+source=bbcukmet|weather|Montevideo, Uruguay|http://newsrss.bbc.co.uk/weather/forecast/300/ObservationsRSS.xml
