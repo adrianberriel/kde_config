@@ -8,4 +8,4 @@ loadAll=false
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
 
 [RecentlyUsed]
-Applications=cinelerra.desktop,android-sdk.desktop,kde4-ksnapshot.desktop,google-chrome.desktop,Beta-writer.desktop
+Applications=android-sdk.desktop,kde4-ksnapshot.desktop,google-chrome.desktop,Beta-writer.desktop,picasa.desktop

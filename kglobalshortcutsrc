@@ -6,7 +6,7 @@ Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Lay
 _k_friendly_name=KDE Keyboard Layout Switcher
 
 [amarok]
-_k_friendly_name=Amarok
+_k_friendly_name=amarok
 decreaseVolume=,Meta+-,Decrease Volume
 increaseVolume=Meta++,Meta++,Increase Volume
 loveTrack=,Meta+L,Last.fm: Love Current Track
